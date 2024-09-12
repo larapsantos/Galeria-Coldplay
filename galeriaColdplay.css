@@ -1,0 +1,59 @@
+header{
+    text-align: center;
+    position: fixed;
+    background-color: rgb(22, 22, 95);
+    color: aliceblue;
+    width: 100%;
+    top: 0;
+    right: 0;
+    padding: 20px;
+    font-family: 'Infinity', sans-serif;
+    font-size: 50px;
+}
+
+img{
+    width: 300px;
+}
+
+figure{
+    margin: 10px;
+    border: thin solid rgb(17, 4, 43);
+    width: 300px;
+    background-color: rgb(22, 22, 95);
+    padding: 10px;
+}
+
+figcaption{
+    text-align: center;
+    color: aliceblue;
+    background-color: rgb(22, 22, 95);
+    width: 100%;
+    font-family: 'Fredoka', sans-serif;
+}
+
+body{
+    background-image: url(./imagens/space3.gif);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main{
+    margin-top: 100px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-content: center;
+    margin: 100px;
+}
+
+footer{
+    position: fixed;
+    background-color: rgb(22, 22, 95);
+    color: aliceblue;
+    width: 100%;
+    bottom: 0%;
+    font-family: 'Fredoka', sans-serif;
+    text-align: center;
+    padding: 20px;
+    left: 0;
+}
